@@ -9,6 +9,7 @@ export const ChildA = () => {
     </div>
   )
 }
+export const MemoizedChildA=React.memo(ChildA)
 
 export const ChildB = () => {
     console.log('ChildB Renders')
